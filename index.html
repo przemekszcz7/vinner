@@ -342,6 +342,18 @@
 
     /* Mobile Navigation Logic */
     @media (max-width: 992px) {
+      .header-top {
+        display: none;
+      }
+
+      .container {
+        padding: 0 28px;
+      }
+
+      .navbar {
+        padding: 16px 4px;
+      }
+
       .menu-toggle-label {
         display: flex;
       }
@@ -393,6 +405,18 @@
       padding: 140px 0 100px;
       position: relative;
       overflow: hidden;
+    }
+
+    @media (max-width: 992px) {
+      .hero {
+        padding: 100px 0 60px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        padding: 80px 0 40px;
+      }
     }
 
     .hero-grid {
@@ -484,6 +508,14 @@
       text-transform: uppercase;
     }
 
+    @media (max-width: 768px) {
+      .hero-badge {
+        font-size: 11px;
+        padding: 6px 12px;
+        margin-bottom: 16px;
+      }
+    }
+
     .hero-badge span {
       display: block;
       width: 8px;
@@ -513,8 +545,9 @@
 
     @media (max-width: 768px) {
       .hero-title {
-        font-size: 40px;
+        font-size: 32px;
         letter-spacing: -0.5px;
+        margin-bottom: 16px;
       }
     }
 
@@ -523,6 +556,13 @@
       color: rgba(255, 255, 255, 0.7);
       margin-bottom: 32px;
       max-width: 580px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-desc {
+        font-size: 15px;
+        margin-bottom: 24px;
+      }
     }
 
     .hero-benefits {
@@ -567,6 +607,12 @@
       gap: 16px;
     }
 
+    @media (max-width: 992px) {
+      .hero-actions {
+        justify-content: center;
+      }
+    }
+
     /* Hero Right - Card Premium */
     .hero-card {
       background: rgba(30, 41, 59, 0.7);
@@ -577,6 +623,21 @@
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       position: relative;
+    }
+
+    @media (max-width: 768px) {
+      .hero-card {
+        padding: 24px;
+        border-radius: 20px;
+      }
+      .hero-card-title {
+        font-size: 18px;
+        margin-bottom: 16px;
+      }
+      .hero-card-item {
+        padding: 12px;
+        gap: 12px;
+      }
     }
 
     .hero-card::before {
