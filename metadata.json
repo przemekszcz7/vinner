@@ -1,0 +1,6 @@
+{
+  "name": "Skup aut i busów Vinner",
+  "description": "Nowoczesna i profesjonalna strona internetowa dla skupu pojazdów Vinner. Szybka wycena, gotówka od ręki, dojazd do klienta gratis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
